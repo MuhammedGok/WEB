@@ -1,0 +1,22 @@
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+
+body {
+  background-image: url('https://i.stack.imgur.com/kx8MT.gif');
+  animation: color-change 3s infinite;
+}
+
